@@ -11,6 +11,8 @@ header{
     align-items: center;
     display: flex;
     box-shadow: 0px 5px 5px #ddd;
+    position: fixed;
+    height: 80px;
 }
 
 #menu{
@@ -30,10 +32,17 @@ header{
     box-shadow: 0px 5px 5px #BA4A80;
 }
 
+section {
+    padding-top: 70px;
+}
+
 #título{
     height: 40px;
     width: 50%;
-    margin:20px 22% 0 ;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    margin-top: 30px;
     background-color: #FC66AE;
     box-shadow: 0px 5px 5px #ddd;
     color: #FDF3FB;
@@ -47,4 +56,49 @@ h2{
    width: 100%;
    display: flex;
    text-align: center;
+}
+
+#sobrenós{
+    height: 180px;
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#texto{
+    width: 84%;
+    margin:20px 8% 0 ;
+    justify-content: center;
+}
+
+p{
+    margin: 10px;
+    font-size: 0.9em;
+    text-indent: 30px;
+    text-align: justify;
+    text-shadow: 0px 5px 5px #ddd;
+}
+
+#produtosfoto{
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
+
+.imgprodutos1{
+    width: 35%;
+    height: 35%;
+    margin-left: 10%;
+    margin-right: 10%;;
+}
+
+.imgprodutos2{
+    width: 35%;
+    height: 35%;
+    margin-right: 10%;;
 }
