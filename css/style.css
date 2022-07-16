@@ -169,6 +169,15 @@ button{
     box-shadow: 0px 5px 5px #edebeb;
 }
 
+button:hover{
+    background-color: #ffff;
+    font-size: 0.9em;
+    padding: 2px;
+    color: #000;
+    box-shadow: 0px 5px 5px #edebeb;
+    border: 2px solid #FC66AE;
+}
+
 #franquias{
     height: 130px;
     width: 90%;
@@ -198,7 +207,8 @@ button{
     text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
 }
 
-#footer{
+footer{
+    padding: 10px;
     background-color: #FC66AE;
 }
 
@@ -206,7 +216,43 @@ button{
     padding: 3px;
     font-size: 1em;
     text-align: justify;
-    text-indent: 10px;
     text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
     color: #fff;
+}
+
+.imgpagamento1{
+    width: 56%;
+    height: 80px;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgpagamento2{
+    width: 34%;
+    height: 80px;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgpagamento3{
+    height: 80px;
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#produtosfoto{
+    display: flex;
+}
+
+#produtosfoto1{
+    display: flex;
 }
